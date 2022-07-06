@@ -14,6 +14,17 @@ function Theme_theme_support(){
 add_action('after_setup_theme', 'Theme_theme_support');
 
 
+# Menu Automate
+
+function Theme_menus(){
+    $locations = array(
+        'primary' => "Header Menu",
+        'footer'  => "Footer Menu"
+    );
+    register_nav_menus($locations);
+}
+
+add_action('init', 'Theme_menus');
 
 # CSS
 
