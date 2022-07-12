@@ -14,7 +14,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    # Pulling the CSS and JS Files that we declared in functions.php
+    # Pulling the CSS Files that we declared in functions.php
     <?php 
     wp_head();
     ?>  
