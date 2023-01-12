@@ -3,6 +3,10 @@ if ( ! defined( 'ABSPATH' ) ) {
         exit; // Exit if accessed directly
 }
 
+
+# Adding the Theme Options
+require_once (get_template_directory(). '/templates/admin.php');
+
 # Required
 function Theme_theme_support(){
     add_theme_support( 'title-tag' );
